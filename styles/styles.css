@@ -25,12 +25,12 @@
 
 .logo{
     margin-right: auto;
-    background-color: green;
     width: 6em;
     height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+     background-color: darkblue;
 }
 
 
@@ -40,11 +40,6 @@
     height: 100%;
 
 
-
-
-}
-
-.menu-container ul{
 
 
 }
@@ -67,6 +62,7 @@
     display: flex;
     align-items: center;
     height: 100%;
+     
     
 }
 
@@ -74,9 +70,8 @@
 .login-signup button{
     width: 6em;
     height: 100%;
-    background-color: darkolivegreen;
     border: none;
-
+    background-color: darkblue;
 
 }
 
@@ -88,6 +83,34 @@
 
 section{
     margin-top: 10em;
+}
+
+
+
+.main-movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    width: 100%;
+    padding: 10px;
+}
+
+.movie_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_card img {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+
+}
+.movie_card h2 {
+    padding: 10px 5px; 
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 
